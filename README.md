@@ -1,15 +1,13 @@
-# e-commerce-project
-
-#### Chocolate Shop - E-Commerce project  with Angular and Spring Boot 
+## Chocolate Shop - E-Commerce project  with Angular and Spring Boot 
 
 
-#### Description
+## Description
 This is a small project for a chocolate shop, powered by Angular for the frontend and Spring Boot for the backend. 
-
 The frontend client makes API calls to the backend server when it is running.
 
 
 ## Technology
+
 **Backend**
   - Spring Boot 
   - Spring Data JPA
