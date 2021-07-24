@@ -1,0 +1,19 @@
+.carousel-item {
+    height: 32rem;    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+select.form-select{
+    font-weight: bold;    
+}
+
+option {
+    font-weight: bold;
+}
+
+

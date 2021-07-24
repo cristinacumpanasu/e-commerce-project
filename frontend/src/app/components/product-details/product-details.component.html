@@ -1,0 +1,78 @@
+<div class="container-lg">
+    <div class="row justify-content-start align-items-start py-3">
+        <div class="col-md-6 d-md-block">
+            <img class="img-fluid py-3" src="{{product.imageUrl}}" alt="product image">
+        </div>
+        <div class="col-md-6 text-start my-3">
+            <div class="row">
+                <div class="h1 mb-3">{{product.name}}</div>
+                <div class="h3 text-danger">{{product.price | currency: 'EUR'}}</div>
+                <p>{{product.description}}</p>
+                <h5>Quantity</h5>
+            </div>
+            <div class="row justify-content-start align-items-center">
+                <div class="col-md-3">
+                    <select class="form-select my-3" aria-label="select quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div class="col-md-3 text-start">
+                    <div class="d-grid">
+                        <button class="btn btn-danger" type="button">Add to cart</button>
+                    </div>                    
+                </div>
+            </div>
+            <div class="row h5 py-5 justify-content-bottom ">
+                <a routerLink="/products" class="text-dark">Back to collections</a>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-start align-items-start">
+        <div class="text pt-5">
+            <h2>Reviews</h2>
+        </div>
+        <div class="row my-5">
+            <div class="col-lg-8">
+                <div class="list-group">
+                    <div class="list-group-item py-3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5 class="mb-1">Amazing!</h5>
+                        <p class="mb-1">Masterpiece Chocolate.</p>
+                        <small>Review by Andreea</small>
+                    </div>
+
+                    <div class="list-group-item py-3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                        <h5 class="mb-1">Excellent product!</h5>
+                        <p class="mb-1">Perfect little gift. I absolutely love it.</p>
+                        <small>Review by Diana</small>
+                    </div>
+
+                    <div class="list-group-item py-3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5 class="mb-1">Delicious!</h5>
+                        <p class="mb-1">They were beautiful, colorful and delicious!</p>
+                        <small>Review by Paul</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
